@@ -18,6 +18,7 @@ class Main extends PluginBase implements Listener{
            $this->getLogger()->info("§aPlugin JoinTitle for Steadfast2 by AkmalFairuz");
            $this->getLogger()->info("§bGithub: https://github.com/AkmalFairuz/");
            // **COPYRIGHT** JANGAN DIGANTI YA BRO :)
+           $this->config();
      }
      
      public function onDisable()
