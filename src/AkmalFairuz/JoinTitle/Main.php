@@ -30,7 +30,7 @@ class Main extends PluginBase implements Listener{
      
      public function onJoin(PlayerJoinEvent $event) {
            $player = $event->getPlayer();
-           $player->setJoinMessage("§e".$player->getName()." joined the game");
+           $event->setJoinMessage("§e".$player->getName()." joined the game");
            $title = $this->cfg->get("title");
            $subtitle = $this->cfg->get("subtitle");
            $time = $this->cfg->get("time");
