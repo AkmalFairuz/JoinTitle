@@ -14,19 +14,19 @@ class Main extends PluginBase implements Listener{
      public function onEnable()
      {
            Server::getInstance()->getPluginManager()->registerEvents($this, $this);
-           // **COPYRIGHT** JANGAN DIGANTI YA BRO :)
+           
            $this->getLogger()->info("§aPlugin JoinTitle for Steadfast2 by AkmalFairuz");
            $this->getLogger()->info("§bGithub: https://github.com/AkmalFairuz/");
-           // **COPYRIGHT** JANGAN DIGANTI YA BRO :)
+           
            $this->config();
      }
      
      public function onDisable()
      {
-           // **COPYRIGHT** JANGAN DIGANTI YA BRO :)
+           
            $this->getLogger()->info("§aPlugin JoinTitle for Steadfast2 by Akmal Fairuz §cdisabled");
            $this->getLogger()->info("§bGithub: https://github.com/AkmalFairuz/");
-           // **COPYRIGHT** JANGAN DIGANTI YA BRO :)
+           
      }
      
      public function onJoin(PlayerJoinEvent $event) {
